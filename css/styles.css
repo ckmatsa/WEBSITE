@@ -64,3 +64,11 @@
 .social-buttons a{
 margin: 0 5px
 }
+
+.custom-cards {
+  margin: 20px auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
