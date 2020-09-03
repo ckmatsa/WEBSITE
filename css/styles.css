@@ -27,3 +27,22 @@
   background: #55ACEE;
   color: white;
 }
+
+.custom-form,
+.social-buttons {
+  margin: 20px auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-form {
+  flex-direction: column;
+  background-color: grey;
+  padding: 20px
+}
+
+.social-buttons a{
+margin: 0 5px
+}
