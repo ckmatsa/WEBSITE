@@ -48,8 +48,7 @@
 }
 
 .custom-form,
-.social-buttons,
-.custom-cards {
+.social-buttons,{
   margin: 20px auto;
   width: 100%;
   display: flex;
