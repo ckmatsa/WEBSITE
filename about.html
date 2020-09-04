@@ -37,16 +37,42 @@
             </div>
         </nav>
         <div class="custom-text">
-        <h1 style="color:#1B3D69">About us</h1>        
+            <h1 style="color:#1B3D69">About us</h1>        
         </div>
-        <div class="custom-card2"
-        <div class="card" style="width: 18rem;">
+        <div class="custom-card2">
+            <div class="card" style="width: 18rem;">
             <img src="images/save the earth2.png" class="card-img-top" alt="air pollution">
             <div class="card-body">
               <h5 class="card-title">How can you help?</h5>
               <p class="card-text">The planet needs our help now, what can we do to help Earth?</p>
               <a href="https://www.youtube.com/watch?v=gUhxcdzRgLQ" class="btn btn-primary">Learn more</a>
             </div>
-        </div> 
+            </div>
+        </div>
+
+        <div class="container">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Greece</option>
+                <option value="canada">USA</option>
+                <option value="canada">Canada</option>
+                <option value="canada">UK</option>
+                <option value="usa">Other</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+
     </body>
 </html>
