@@ -75,9 +75,12 @@ margin: 0 5px;
   justify-content: center;
 }
 
-.custom-card2 {
-  margin-left: 50px;
-  margin-right: 50px;
+
+.custom-text2{
+  background-color:#ccc;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding: 20px 
 }
 
 input[type=text], select, textarea {
