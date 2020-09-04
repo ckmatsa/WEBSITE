@@ -48,7 +48,8 @@
 }
 
 .custom-form,
-.social-buttons {
+.social-buttons,
+.custom-cards {
   margin: 20px auto;
   width: 100%;
   display: flex;
@@ -63,14 +64,14 @@
 }
 
 .social-buttons a{
-margin: 0 5px
+margin: 0 5px;
 }
 
-.custom-cards {
+.custom-text {
   margin: 20px auto;
   width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  }
+  justify-content: center;
+}
 
